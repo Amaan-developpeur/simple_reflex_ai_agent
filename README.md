@@ -47,15 +47,18 @@ simple_reflex_ai_agent/
 This project uses the validation portion of the following Kaggle dataset:
 https://www.kaggle.com/datasets/drskprabhakar/cataract-dr-normal-glaucoma-fundus-images-dataset
 You should place the downloaded Kaggle dataset at the same level as the project folder, like this:
+```
 YourWorkingDirectory/
 ├── simple_reflex_ai_agent/
-│   └── ...
+│   └── ...                           ← All agent-related code and files
 ├── split(dataset)/
-│   └── val/
+│   └── val/                          ← Validation set for testing agent perception
 │       ├── cataract/
 │       ├── diabetic_retinopathy/
 │       ├── glaucoma/
 │       └── normal/
+```
+
 
 Code Uses:
 base_dir = Path(__file__).resolve().parent.parent.parent / "split" / "val"
