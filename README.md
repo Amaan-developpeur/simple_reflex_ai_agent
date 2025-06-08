@@ -1,4 +1,4 @@
-# 🧠 Simple Reflex AI Agent for Fundus Disease Screening
+# Simple Reflex AI Agent for Fundus Disease Screening
 
 This project implements a **Simple Reflex Agent** for automated screening of retinal fundus images to classify them into four categories:  
 **Cataract**, **Diabetic Retinopathy**, **Glaucoma**, and **Normal** — and take corresponding actions such as _Refer_, _Monitor_, or _Ignore_.
@@ -7,7 +7,7 @@ Inspired by the **agent architectures** from _Artificial Intelligence: A Modern 
 
 ---
 
-## 🧭 Project Goals
+## Project Goals
 
 - ✅ Wrap a trained CNN model inside an autonomous decision-making loop.
 - ✅ Simulate an environment to evaluate agent decisions.
@@ -16,7 +16,7 @@ Inspired by the **agent architectures** from _Artificial Intelligence: A Modern 
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
 ```
 simple_reflex_ai_agent/
@@ -63,7 +63,7 @@ base_dir = Path(__file__).resolve().parent.parent.parent / "split" / "val"
 This lets agent access validation images directly from the dataset without needing to split or reorganize anything.
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
 - Python 3.8+
 - TensorFlow / Keras
