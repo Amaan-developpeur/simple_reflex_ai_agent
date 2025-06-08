@@ -43,6 +43,24 @@ simple_reflex_ai_agent/
 ├── requirements.txt
 └── .gitignore
 ```
+##  Dataset Source (Kaggle)
+This project uses the validation portion of the following Kaggle dataset:
+https://www.kaggle.com/datasets/drskprabhakar/cataract-dr-normal-glaucoma-fundus-images-dataset
+You should place the downloaded Kaggle dataset at the same level as the project folder, like this:
+YourWorkingDirectory/
+├── simple_reflex_ai_agent/
+│   └── ...
+├── split(dataset)/
+│   └── val/
+│       ├── cataract/
+│       ├── diabetic_retinopathy/
+│       ├── glaucoma/
+│       └── normal/
+
+Code Uses:
+base_dir = Path(__file__).resolve().parent.parent.parent / "split" / "val"
+
+This lets agent access validation images directly from the dataset without needing to split or reorganize anything.
 ---
 
 ## ⚙️ Tech Stack
