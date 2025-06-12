@@ -9,10 +9,10 @@ Inspired by the **agent architectures** from _Artificial Intelligence: A Modern 
 
 ## Project Goals
 
-- ✅ Wrap a trained CNN model inside an autonomous decision-making loop.
-- ✅ Simulate an environment to evaluate agent decisions.
-- ✅ Design an educational, modular walkthrough for beginners to understand how to build AI agents (even reflex ones) from scratch.
-- ✅ Prepare ground for building more intelligent, utility- or goal-based agents in future phases.
+- Wrap a trained CNN model inside an autonomous decision-making loop.
+- Simulate an environment to evaluate agent decisions.
+- Design an educational, modular walkthrough for beginners to understand how to build AI agents (even reflex ones) from scratch.
+- Prepare ground for building more intelligent, utility- or goal-based agents in future phases.
 
 ---
 
